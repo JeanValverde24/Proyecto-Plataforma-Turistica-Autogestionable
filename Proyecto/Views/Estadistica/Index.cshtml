@@ -1,0 +1,96 @@
+﻿@model Proyecto.Models.DatosEstadisticas
+
+@{
+    ViewData["Title"] = "Estadísticas";
+}
+
+<h2>Estadísticas del Negocio</h2>
+
+<div>
+    <h3>Visitas al perfil por semana</h3>
+    <canvas id="graficoVisitas" width="400" height="200"></canvas>
+    <button id="btnVerDetallesVisitas">Ver Detalles</button>
+</div>
+
+<div>
+    <h3>Intentos de contacto exitosos</h3>
+    <canvas id="graficoContactos" width="400" height="200"></canvas>
+    <button id="btnVerDetallesContactos">Ver Detalles</button>
+</div>
+
+<div>
+    <h3>Tendencia de ventas</h3>
+    <canvas id="graficoVentas" width="400" height="200"></canvas>
+    <button id="btnVerDetallesVentas">Ver Detalles</button>
+</div>
+
+<div id="mensajeExito" style="display:none; color: green;">
+    Informe descargado exitosamente.
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const visitasPorSemana = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.VisitasPorSemana));
+        const ventasPorMes = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.VentasPorMes));
+
+        // Configuración de los gráficos
+        const ctxVisitas = document.getElementById('graficoVisitas').getContext('2d');
+        new Chart(ctxVisitas, {
+            type: 'bar',
+            data: {
+                labels: ['Semana 1', 'Semana 2', 'Semana 3', 'Semana 4', 'Semana 5'],
+                datasets: [{
+                    label: 'Visitas',
+                    data: visitasPorSemana,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const ctxVentas = document.getElementById('graficoVentas').getContext('2d');
+        new Chart(ctxVentas, {
+            type: 'line',
+            data: {
+                labels: ['Mes 1', 'Mes 2', 'Mes 3', 'Mes 4'],
+                datasets: [{
+                    label: 'Ventas',
+                    data: ventasPorMes,
+                    fill: false,
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    tension: 0.1
+                }]
+            }
+        });
+
+        // Lógica para descargar el informe
+        $('#btnDescargarInforme').click(function () {
+            const formato = prompt("Ingrese el formato deseado (pdf/excel):");
+            if (formato) {
+                window.location.href = '@Url.Action("DescargarInforme", "Estadisticas")' + '?formato=' + formato;
+            }
+        });
+
+        // Manejo de los botones "Ver Detalles" (puedes implementar la lógica adicional según sea necesario)
+        $('#btnVerDetallesVisitas').click(function () {
+            // Implementar lógica para mostrar detalles de visitas
+        });
+
+        $('#btnVerDetallesContactos').click(function () {
+            // Implementar lógica para mostrar detalles de contactos
+        });
+
+        $('#btnVerDetallesVentas').click(function () {
+            // Implementar lógica para mostrar detalles de ventas
+        });
+    </script>
+}

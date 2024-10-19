@@ -32,6 +32,7 @@ namespace Proyecto.Models
         // Características de Tour o Lugar Turístico
         public string Duracion { get; set; }  // Duración del tour
         public double? PrecioTour { get; set; }  // Precio del tour
+
     }
 
 }
