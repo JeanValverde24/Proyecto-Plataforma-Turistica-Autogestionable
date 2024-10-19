@@ -1,0 +1,34 @@
+﻿@model List<Proyecto.Models.HistorialServicio>
+
+<h2>Historial de Servicios</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre del Local</th>
+            <th>Fecha de Servicio</th>
+            <th>Servicio</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var servicio in Model)
+        {
+            <tr>
+                <td>@servicio.NombreLocal</td>
+                <td>@servicio.Fecha.ToString("dd/MM/yyyy")</td>
+                <td>@servicio.Servicio</td>
+                <td>
+                    @if (!servicio.Calificado)
+                    {
+                        <a href="/Perfil/DejarFeedback?local=@servicio.NombreLocal" class="btn btn-warning">Dejar Feedback</a>
+                    }
+                    else
+                    {
+                        <span>Ya calificado</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

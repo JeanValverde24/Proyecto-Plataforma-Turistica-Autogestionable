@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Dejar Feedback";
+}
+
+<style>
+    .star-rating {
+        display: flex;
+        gap: 5px;
+    }
+
+        .star-rating input[type="radio"] {
+            display: none;
+        }
+
+        .star-rating label {
+            font-size: 24px;
+            color: gray;
+            cursor: pointer;
+        }
+
+            .star-rating input[type="radio"]:checked ~ label,
+            .star-rating label:hover,
+            .star-rating label:hover ~ label {
+                color: gold;
+            }
+
+</style>
+
+<h2>Dejar Feedback para @ViewBag.Local</h2>
+
+<form method="post" action="/Perfil/EnviarFeedback">
+    <div class="mb-3">
+        <label for="comentario" class="form-label">Comentario</label>
+        <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Calificación</label>
+        <div class="star-rating">
+            @for (int i = 1; i <= 5; i++)
+            {
+                <input type="radio" id="star-@i" name="estrellas" value="@i" />
+                <label for="star-@i" title="@i estrellas">★</label>
+            }
+        </div>
+    </div>
+
+    <input type="hidden" name="local" value="@ViewBag.Local" />
+
+    <button type="submit" class="btn btn-primary">Enviar Feedback</button>
+</form>

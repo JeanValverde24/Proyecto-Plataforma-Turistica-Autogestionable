@@ -1,0 +1,45 @@
+﻿@model Proyecto.Models.Usuario
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<h1>Registro</h1>
+
+<div>
+    <button onclick="document.getElementById('turistaForm').style.display='block'; document.getElementById('dueñoForm').style.display='none';">Registro de Turista</button>
+    <button onclick="document.getElementById('dueñoForm').style.display='block'; document.getElementById('turistaForm').style.display='none';">Registro de Dueño de Local</button>
+</div>
+
+<div id="turistaForm" style="display:none;">
+    <h2>Registro de Turista</h2>
+    <form asp-action="RegistrarTurista" method="post">
+        <input type="text" name="NombreCompleto" placeholder="Introduce tu nombre" required />
+        <input type="email" name="CorreoElectronico" placeholder="Introduce tu correo" required />
+        <input type="password" name="Contraseña" placeholder="Introduce tu contraseña" required />
+        <input type="text" name="DNI" placeholder="DNI o RUT" required />
+        <button type="submit">Registrar</button>
+    </form>
+</div>
+
+<div id="dueñoForm" style="display:none;">
+    <h2>Registro de Dueño de Local</h2>
+    <form asp-action="RegistrarDueño" method="post">
+        <input type="text" name="NombreCompleto" placeholder="Introduce tu nombre" required />
+        <input type="email" name="CorreoElectronico" placeholder="Introduce tu correo" required />
+        <input type="password" name="Contraseña" placeholder="Introduce tu contraseña" required />
+        <input type="text" name="RUC" placeholder="RUC" required />
+        <button type="submit">Registrar</button>
+    </form>
+</div>
+
+@if (ViewBag.Mensaje != null)
+{
+    <div>@ViewBag.Mensaje</div>
+}
+
+@section Scripts {
+    <script>
+        // Muestra el formulario de turistas por defecto
+        document.getElementById('turistaForm').style.display = 'block';
+    </script>
+}
