@@ -40,6 +40,7 @@
         user-select: none;
         font-weight: bolder;
         color: black;
+        margin: 10px; /* Añadir margen entre recomendaciones */
     }
 
         .recomendacion:hover {
@@ -52,18 +53,46 @@
         }
 
     .container-recomendaciones {
-        padding:150px;
+        padding: 150px;
+        text-align: center; /* Centrar texto dentro del contenedor */
+    }
+
+    .form-label {
+        font-weight: bold;
+        color: #4A0D50; /* Morado oscuro */
+        display: block; /* Asegurarse de que las etiquetas ocupen toda la línea */
+        margin: 10px 0; /* Añadir margen vertical */
+    }
+
+    .form-control {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        width: 100%; /* Hacer que los campos ocupen el ancho completo */
+        max-width: 300px; /* Limitar el ancho máximo */
+        margin-left: auto; /* Centrar horizontalmente */
+        margin-right: auto; /* Centrar horizontalmente */
+    }
+
+    .recomendaciones-container {
+        display: flex;
+        justify-content: center; /* Centrar las tarjetas de recomendación */
+        flex-wrap: wrap; /* Permitir que las tarjetas se ajusten en varias filas */
     }
 </style>
 
 <div class="container-recomendaciones">
     <h2 class="text-center mb-4">Recomendaciones Personalizadas</h2>
-    <!-- Contenedor para las tarjetas de recomendaciones -->
+    <!-- Contenedor para filtrar recomendaciones -->
     <label for="cantidadPersonas" class="form-label">Filtrar recomendaciones</label>
     <select class="form-control" id="cantidadPersonas" name="cantidadPersonas">
         <option value="1">Filtrar recomendaciones</option>
     </select>
-    <div class="d-flex justify-content-between">
+
+    <!-- Contenedor de recomendaciones -->
+    <div class="recomendaciones-container">
         <div class="recomendacion">Recomendación 1</div>
         <div class="recomendacion">Recomendación 2</div>
         <div class="recomendacion">Recomendación 3</div>

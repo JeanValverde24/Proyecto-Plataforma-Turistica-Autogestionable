@@ -4,28 +4,49 @@
     ViewData["Title"] = "Estadísticas";
 }
 
-<h2>Estadísticas del Negocio</h2>
+<h2 class="text-center my-4">Estadísticas del Negocio</h2>
 
-<div>
-    <h3>Visitas al perfil por semana</h3>
-    <canvas id="graficoVisitas" width="400" height="200"></canvas>
-    <button id="btnVerDetallesVisitas">Ver Detalles</button>
-</div>
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Visitas al Perfil por Semana</h3>
+                    <canvas id="graficoVisitas" width="400" height="200"></canvas>
+                    <button id="btnVerDetallesVisitas" class="btn btn-outline-primary w-100 mt-3">Ver Detalles</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Intentos de Contacto Exitosos</h3>
+                    <canvas id="graficoContactos" width="400" height="200"></canvas>
+                    <button id="btnVerDetallesContactos" class="btn btn-outline-primary w-100 mt-3">Ver Detalles</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div>
-    <h3>Intentos de contacto exitosos</h3>
-    <canvas id="graficoContactos" width="400" height="200"></canvas>
-    <button id="btnVerDetallesContactos">Ver Detalles</button>
-</div>
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Tendencia de Ventas</h3>
+                    <canvas id="graficoVentas" width="400" height="200"></canvas>
+                    <button id="btnVerDetallesVentas" class="btn btn-outline-primary w-100 mt-3">Ver Detalles</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div>
-    <h3>Tendencia de ventas</h3>
-    <canvas id="graficoVentas" width="400" height="200"></canvas>
-    <button id="btnVerDetallesVentas">Ver Detalles</button>
-</div>
+    <div id="mensajeExito" class="alert alert-success text-center" style="display:none;">
+        Informe descargado exitosamente.
+    </div>
 
-<div id="mensajeExito" style="display:none; color: green;">
-    Informe descargado exitosamente.
+    <div class="text-center">
+        <button id="btnDescargarInforme" class="btn btn-primary">Descargar Informe</button>
+    </div>
 </div>
 
 @section Scripts {
@@ -43,8 +64,8 @@
                 datasets: [{
                     label: 'Visitas',
                     data: visitasPorSemana,
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
                     borderWidth: 1
                 }]
             },
@@ -80,7 +101,7 @@
             }
         });
 
-        // Manejo de los botones "Ver Detalles" (puedes implementar la lógica adicional según sea necesario)
+        // Manejo de los botones "Ver Detalles"
         $('#btnVerDetallesVisitas').click(function () {
             // Implementar lógica para mostrar detalles de visitas
         });

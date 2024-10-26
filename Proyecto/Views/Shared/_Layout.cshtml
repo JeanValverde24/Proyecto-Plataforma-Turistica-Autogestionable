@@ -44,7 +44,7 @@
         }
 
         .nav {
-            gap: 100px;
+            gap: 0px;
         }
 
         .nav-item a {
@@ -202,8 +202,14 @@
                 </li>
             </ul>
         </nav>
-        <button class="login-btn" onclick="window.location.href='/Registro/Index'">Registrarse</button>
-        <button class="login-btn" onclick="window.location.href='/Account/Login'">Login</button>
+        <button class="login-btn" onclick="window.location.href='/Registro/Index'"
+                style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "none" : "block");">
+            Registrarse
+        </button>
+        <button class="login-btn" onclick="window.location.href='/Login/Index'"
+                style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "none" : "block");">
+            Login
+        </button>
         <div class="button-container">
             <button class="brutalist-button openai button-1" data-bs-toggle="modal" data-bs-target="#customQuoteModal">
                 <div class="openai-logo">
@@ -232,7 +238,13 @@
                 <li><a class="dropdown-item" href="/Account/Logout">Cerrar Sesión</a></li>
             </ul>
         </li>
-        <button class="login-btn" onclick="window.location.href='/Socio/AñadirServicio'">Añadir Servicio</button>
+        <button class="login-btn" onclick="window.location.href='/Business/Servicios'"
+                style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "block" : "none");">
+            Añadir Servicio
+        </button>
+
+
+
     </header>
     <!-- Formulario Modal de Login -->
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
@@ -282,45 +294,55 @@
     @RenderBody()
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- Modal para el formulario de cotización personalizada -->
     <div class="modal fade" id="customQuoteModal" tabindex="-1" aria-labelledby="customQuoteModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <div class="modal-header color1 text-white">
-                    <h5 class="modal-title" id="customQuoteModalLabel">Cotización Personalizada</h5>
+                <div class="modal-header color1 text-white text-center">
+                    <h5 class="modal-title mx-auto" id="customQuoteModalLabel">Cotización Personalizada</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form class="text-center" action="/Cotizacion/CustomQuote" method="post">
                         <div class="mb-3">
                             <label for="dias" class="form-label">Días de Viaje</label>
-                            <input type="number" class="form-control" id="dias" placeholder="Ingrese la cantidad de días">
+                            <input type="number" class="form-control mx-auto" id="dias" name="dias_viaje" placeholder="Ingrese la cantidad de días" style="max-width: 300px;">
                         </div>
                         <div class="mb-3">
                             <label for="presupuesto" class="form-label">Presupuesto</label>
-                            <input type="number" class="form-control" id="presupuesto" placeholder="Ingrese su presupuesto">
+                            <input type="number" class="form-control mx-auto" id="presupuesto" name="presupuesto_usuario" placeholder="Ingrese su presupuesto" style="max-width: 300px;">
                         </div>
                         <div class="mb-3">
                             <label for="motivo" class="form-label">Motivo de Viaje</label>
-                            <select class="form-control" id="motivo">
-                                <option>Vacaciones</option>
-                                <option>Trabajo</option>
-                                <option>Visita Familiar</option>
-                                <option>Otro</option>
+                            <select class="form-control mx-auto" id="motivo" name="motivo_viaje" style="max-width: 300px;">
+                                <option value="vacaciones">Vacaciones</option>
+                                <option value="trabajo">Trabajo</option>
+                                <option value="visita_familiar">Visita Familiar</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ubicacion" class="form-label">Ubicación</label>
+                            <select class="form-control mx-auto" id="ubicacion" name="ubicacion_usuario" style="max-width: 300px;">
+                                <option value="Madrid">Madrid</option>
+                                <option value="Barcelona">Barcelona</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label for="personas" class="form-label">Cantidad de Personas</label>
-                            <input type="number" class="form-control" id="personas" placeholder="Ingrese la cantidad de personas">
+                            <input type="number" class="form-control mx-auto" id="personas" name="cantidad_personas" placeholder="Ingrese la cantidad de personas" style="max-width: 300px;">
                         </div>
                         <div class="mt-4">
-                            <button type="button" class="btn custom-btn w-100" onclick="window.location.href='/Cotizacion/CustomQuote'">Obtener Cotización</button>
+                            <button type="submit" class="btn custom-btn w-50">Obtener Cotización</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+    </div>
+
+
     </div>
     @RenderSection("Scripts", required: false) <!-- Esta línea debe estar presente -->
 

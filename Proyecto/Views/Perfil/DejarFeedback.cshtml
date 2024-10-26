@@ -5,7 +5,9 @@
 <style>
     .star-rating {
         display: flex;
-        gap: 5px;
+        gap: 8px;
+        justify-content: center;
+        margin-top: 10px;
     }
 
         .star-rating input[type="radio"] {
@@ -13,9 +15,10 @@
         }
 
         .star-rating label {
-            font-size: 24px;
-            color: gray;
+            font-size: 30px;
+            color: lightgray;
             cursor: pointer;
+            transition: color 0.3s ease-in-out;
         }
 
             .star-rating input[type="radio"]:checked ~ label,
@@ -24,28 +27,71 @@
                 color: gold;
             }
 
+    .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #007bff;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease-in-out, transform 0.2s;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+    textarea.form-control {
+        resize: none;
+        border-radius: 6px;
+        box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 </style>
 
-<h2>Dejar Feedback para @ViewBag.Local</h2>
+<div class="form-container">
+    <h2>Dejar Feedback para Pacific Suites @ViewBag.Local</h2>
 
-<form method="post" action="/Perfil/EnviarFeedback">
-    <div class="mb-3">
-        <label for="comentario" class="form-label">Comentario</label>
-        <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí"></textarea>
-    </div>
-
-    <div class="mb-3">
-        <label class="form-label">Calificación</label>
-        <div class="star-rating">
-            @for (int i = 1; i <= 5; i++)
-            {
-                <input type="radio" id="star-@i" name="estrellas" value="@i" />
-                <label for="star-@i" title="@i estrellas">★</label>
-            }
+    <form method="post" action="/Perfil/EnviarFeedback">
+        <div class="mb-4">
+            <label for="comentario" class="form-label">Comentario</label>
+            <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí"></textarea>
         </div>
-    </div>
 
-    <input type="hidden" name="local" value="@ViewBag.Local" />
+        <div class="mb-4">
+            <label class="form-label">Calificación</label>
+            <div class="star-rating">
+                @for (int i = 1; i <= 5; i++)
+                {
+                    <input type="radio" id="star-@i" name="estrellas" value="@i" />
+                    <label for="star-@i" title="@i estrellas">★</label>
+                }
+            </div>
+        </div>
 
-    <button type="submit" class="btn btn-primary">Enviar Feedback</button>
-</form>
+        <input type="hidden" name="local" value="@ViewBag.Local" />
+
+        <button type="submit" class="btn btn-primary">Enviar Feedback</button>
+    </form>
+</div>

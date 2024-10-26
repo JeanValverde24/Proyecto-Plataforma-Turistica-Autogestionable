@@ -1,0 +1,40 @@
+﻿@model List<Proyecto.Models.CotizacionResponse>
+
+@{
+    ViewBag.Title = "Cotización Personalizada";
+}
+
+<h2>Cotizaciones Personalizadas</h2>
+
+<div class="container">
+    @foreach (var cotizacion in Model)
+    {
+        <h4>Cotización - @cotizacion.PorcentajeDelPresupuesto del Presupuesto</h4>
+
+        <h5>Hotel: @cotizacion.Hotel.Nombre</h5>
+        <p>Ubicación: @cotizacion.Hotel.Ubicacion</p>
+        <p>Precio por Noche: @cotizacion.Hotel.PrecioPorNoche €</p>
+        <p>Capacidad: @cotizacion.Hotel.Capacidad personas</p>
+        <p>Calificación: @cotizacion.Hotel.Calificacion estrellas</p>
+        <p>Costo Total del Hotel: @cotizacion.Hotel.CostoTotal €</p>
+
+        <h5>Restaurante: @cotizacion.Restaurante.Nombre</h5>
+        <p>Ubicación: @cotizacion.Restaurante.Ubicacion</p>
+        <p>Tipo de Cocina: @cotizacion.Restaurante.TipoDeCocina</p>
+        <p>Precio Medio por Plato: @cotizacion.Restaurante.PrecioMedioPorPlato €</p>
+        <p>Calificación: @cotizacion.Restaurante.Calificacion estrellas</p>
+        <p>Costo Total del Restaurante: @cotizacion.Restaurante.CostoTotal €</p>
+
+        <h6>Lugares Turísticos</h6>
+        <ul>
+            @foreach (var lugar in cotizacion.Lugares)
+            {
+                <li>@lugar</li>
+            }
+        </ul>
+        <p>Costo Total de Lugares Turísticos: @cotizacion.CostoLugares €</p>
+
+        <p>Presupuesto Total Utilizado: @cotizacion.PresupuestoTotal €</p>
+        <p>Presupuesto Restante: @cotizacion.PresupuestoRestante €</p>
+    }
+</div>
