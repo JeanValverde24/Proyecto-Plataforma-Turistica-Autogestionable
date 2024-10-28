@@ -23,8 +23,8 @@ namespace Proyecto.Controllers
             var url = "http://localhost:5000/api/login";
             var requestData = new
             {
-                correo = usuario.CorreoElectronico,
-                password = usuario.Contraseña
+                correo = usuario.UsrCorreo,
+                password = usuario.contraseña
             };
 
             // Log para verificar los datos que se enviarán

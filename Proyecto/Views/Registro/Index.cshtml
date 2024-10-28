@@ -7,30 +7,68 @@
 
 <div class="toggle-buttons">
     <button class="toggle-btn" onclick="toggleForm('turista')">Registro de Turista</button>
-    <button class="toggle-btn" onclick="toggleForm('dueño')">Registro de Dueño de Local</button>
+    <button class="toggle-btn" onclick="toggleForm('dueño')">Registro de Socio</button>
 </div>
 
 <!-- Formulario de Registro de Turista -->
 <div id="turistaForm" class="form-container">
     <h2>Registro de Turista</h2>
-    <form asp-action="RegistrarTurista" method="post" class="register-form">
-        <input type="text" name="NombreCompleto" placeholder="Nombre Completo" class="form-input" required />
-        <input type="email" name="CorreoElectronico" placeholder="Correo Electrónico" class="form-input" required />
-        <input type="password" name="Contraseña" placeholder="Contraseña" class="form-input" required />
-        <input type="text" name="DNI" placeholder="DNI o RUT" class="form-input" required />
+    <form action="/Registro/RegistrarTurista" method="post" class="register-form">
+        <input type="text" name="UsrNombres" placeholder="Nombre" class="form-input" required />
+        <input type="text" name="UsrApellidoPaterno" placeholder="Apellido Paterno" class="form-input" required />
+        <input type="text" name="UsrApellidoMaterno" placeholder="Apellido Materno" class="form-input" required />
+        <input type="tel" name="UsrNumero" placeholder="Número de Teléfono" class="form-input" required />
+
+        <select name="UsrPais" class="form-input" required>
+            <option value="">Seleccione su país</option>
+            <option value="AR">🇦🇷 Argentina</option>
+            <option value="BO">🇧🇴 Bolivia</option>
+            <option value="BR">🇧🇷 Brasil</option>
+            <option value="CL">🇨🇱 Chile</option>
+            <option value="CO">🇨🇴 Colombia</option>
+            <option value="EC">🇪🇨 Ecuador</option>
+            <option value="MX">🇲🇽 México</option>
+            <option value="PE">🇵🇪 Perú</option>
+            <option value="US">🇺🇸 Estados Unidos</option>
+            <option value="VE">🇻🇪 Venezuela</option>
+        </select>
+
+        <input type="email" name="UsrCorreo" placeholder="Correo Electrónico" class="form-input" required />
+        <input type="password" name="contraseña" placeholder="Contraseña" class="form-input" required />
+        <input type="text" name="UsrDniRut" placeholder="DNI o RUT" class="form-input" required />
         <button type="submit" class="submit-btn">Registrar</button>
     </form>
+
+
 </div>
 
 <!-- Formulario de Registro de Dueño de Local -->
 <div id="dueñoForm" class="form-container" style="display:none;">
-    <h2>Registro de Dueño de Local</h2>
-    <form asp-action="RegistrarDueño" method="post" class="register-form">
-        <input type="text" name="NombreCompleto" placeholder="Nombre Completo" class="form-input" required />
-        <input type="email" name="CorreoElectronico" placeholder="Correo Electrónico" class="form-input" required />
-        <input type="password" name="Contraseña" placeholder="Contraseña" class="form-input" required />
-        <input type="text" name="RUC" placeholder="RUC" class="form-input" required />
-        <button type="submit" class="submit-btn">Registrar</button>
+    <h2>Registro de Socio</h2>
+    <form action="/Registro/RegistrarSocio" method="post" class="register-form">
+        <input type="text" name="UsrNombres" placeholder="Nombre" class="form-input" required />
+        <input type="text" name="UsrApellidoPaterno" placeholder="Apellido Paterno" class="form-input" required />
+        <input type="text" name="UsrApellidoMaterno" placeholder="Apellido Materno" class="form-input" required />
+        <input type="tel" name="UsrNumero" placeholder="Número de Teléfono" class="form-input" required />
+
+        <select name="UsrPais" class="form-input" required>
+            <option value="">Seleccione su país</option>
+            <option value="AR">🇦🇷 Argentina</option>
+            <option value="BO">🇧🇴 Bolivia</option>
+            <option value="BR">🇧🇷 Brasil</option>
+            <option value="CL">🇨🇱 Chile</option>
+            <option value="CO">🇨🇴 Colombia</option>
+            <option value="EC">🇪🇨 Ecuador</option>
+            <option value="MX">🇲🇽 México</option>
+            <option value="PE">🇵🇪 Perú</option>
+            <option value="US">🇺🇸 Estados Unidos</option>
+            <option value="VE">🇻🇪 Venezuela</option>
+        </select>
+
+        <input type="email" name="UsrCorreo" placeholder="Correo Electrónico" class="form-input" required />
+        <input type="password" name="contraseña" placeholder="Contraseña" class="form-input" required />
+        <input type="text" name="UsrRuc" placeholder="RUC" class="form-input" required />
+        <button type="submit" class="submit-btn">Siguiente</button>
     </form>
 </div>
 
