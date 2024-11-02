@@ -31,7 +31,7 @@ namespace Proyecto.Controllers
             };
 
             var jsonContent = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
-            var apiUrl = "http://localhost:5000/api/restaurantes/agregar_plato";
+            var apiUrl = "http://159.223.123.38:8000/api/restaurantes/agregar_plato";
             var response = await _httpClient.PostAsync(apiUrl, jsonContent);
 
             if (response.IsSuccessStatusCode)

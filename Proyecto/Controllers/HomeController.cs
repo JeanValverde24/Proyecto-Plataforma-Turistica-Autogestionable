@@ -16,7 +16,7 @@ namespace Proyecto.Controllers
 
         public HomeController()
         {
-            _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:5000/") }; // Base URL de la API Flask
+            _httpClient = new HttpClient { BaseAddress = new Uri("http://159.223.123.38:8000/") }; // Base URL de la API Flask
         }
         public async Task<ActionResult> Index()
         {

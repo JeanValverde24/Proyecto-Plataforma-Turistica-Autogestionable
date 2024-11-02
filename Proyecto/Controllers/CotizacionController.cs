@@ -25,7 +25,7 @@ namespace Proyecto.Controllers
         public CotizacionController()
         {
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("http://localhost:5000/api/"); // Cambia la URL base si es necesario
+            _httpClient.BaseAddress = new Uri("http://159.223.123.38:8000/api/"); // Cambia la URL base si es necesario
         }
 
         [HttpPost]

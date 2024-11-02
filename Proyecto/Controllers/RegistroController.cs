@@ -47,7 +47,7 @@ namespace Proyecto.Controllers
         [HttpPost]
         public async Task<ActionResult> RegistrarNegocio(Negocio negocio, IEnumerable<HttpPostedFileBase> TbImgRuta)
         {
-            var url = "http://localhost:5000/api/registro/negocio"; // URL de la API Flask
+            var url = "http://159.223.123.38:8000/api/registro/negocio"; // URL de la API Flask
 
             // Crear un objeto para enviar datos del negocio
             var requestData = new
@@ -123,7 +123,7 @@ namespace Proyecto.Controllers
         [HttpPost]
         public async Task<ActionResult> RegistrarTurista(Usuario usuario)
         {
-            var url = "http://localhost:5000/api/registro/turista"; // URL de tu API Flask para el registro de turistas
+            var url = "http://159.223.123.38:8000/api/registro/turista"; // URL de tu API Flask para el registro de turistas
             var requestData = new
             {
                 UsrNombres = usuario.UsrNombres,
@@ -175,7 +175,7 @@ namespace Proyecto.Controllers
         [HttpPost]
         public async Task<ActionResult> RegistrarSocio(Usuario usuario)
         {
-            var url = "http://localhost:5000/api/registro/socio"; // URL de tu API Flask para el registro de turistas
+            var url = "http://159.223.123.38:8000/api/registro/socio"; // URL de tu API Flask para el registro de turistas
             var requestData = new
             {
                 UsrNombres = usuario.UsrNombres,

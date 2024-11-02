@@ -38,7 +38,7 @@ namespace Proyecto.Controllers
                 return RedirectToAction("Index", "Account");
             }
 
-            var url = $"http://localhost:5000/api/negocios?user_id={userId}";
+            var url = $"http://159.223.123.38:8000//api/negocios?user_id={userId}";
             var response = await _httpClient.GetAsync(url);
 
             if (response.IsSuccessStatusCode)
@@ -66,7 +66,7 @@ namespace Proyecto.Controllers
 
             // Llamada a la API
             var client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:5000/"); // Cambia según tu configuración
+            client.BaseAddress = new Uri("http://159.223.123.38:8000/"); // Cambia según tu configuración
             var response = await client.GetAsync($"api/negocio/{negocioId}");
 
             if (response.IsSuccessStatusCode)
@@ -82,7 +82,7 @@ namespace Proyecto.Controllers
         public async Task<System.Web.Mvc.ActionResult> ActualizarNegocio(Negocio negocio)
         {
             var client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:5000/");
+            client.BaseAddress = new Uri("http://159.223.123.38:8000/");
 
             if (ModelState.IsValid)
             {
@@ -261,7 +261,7 @@ namespace Proyecto.Controllers
         }
         private async Task<List<ServicioHotel>> ObtenerServiciosHotel(int negocioId)
         {
-            var url = $"http://localhost:5000/api/hoteles/obtener_servicios?negocioId={negocioId}";
+            var url = $"http://159.223.123.38:8000/api/hoteles/obtener_servicios?negocioId={negocioId}";
             var response = await _httpClient.GetAsync(url);
 
             if (response.IsSuccessStatusCode)
@@ -278,7 +278,7 @@ namespace Proyecto.Controllers
 
         private async Task<List<ServicioRestaurante>> ObtenerServiciosRestaurante(int negocioId)
         {
-            var url = $"http://localhost:5000/api/restaurantes/obtener_servicios?negocioId={negocioId}";
+            var url = $"http://159.223.123.38:8000/api/restaurantes/obtener_servicios?negocioId={negocioId}";
             var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
 
@@ -288,7 +288,7 @@ namespace Proyecto.Controllers
 
         private async Task<List<ServicioTurismo>> ObtenerServiciosTurismo(int negocioId)
         {
-            var url = $"http://localhost:5000/api/turismo/obtener_servicios?negocioId={negocioId}";
+            var url = $"http://159.223.123.38:8000/api/turismo/obtener_servicios?negocioId={negocioId}";
             var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
 
@@ -305,7 +305,7 @@ namespace Proyecto.Controllers
                 return RedirectToAction("EditarServicios", new { negocioId = model?.NegocioId ?? 0 });
             }
 
-            var url = "http://localhost:5000/api/hotel/actualizar_servicio";
+            var url = "http://159.223.123.38:8000/api/hotel/actualizar_servicio";
             var jsonContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
             var response = await _httpClient.PutAsync(url, jsonContent);
 
@@ -324,7 +324,7 @@ namespace Proyecto.Controllers
         [System.Web.Mvc.HttpPost]
         public async Task<System.Web.Mvc.ActionResult> ActualizarServicioRestaurante(ServicioRestaurante model)
         {
-            var url = "http://localhost:5000/api/restaurante/actualizar_servicio";
+            var url = "http://159.223.123.38:8000/api/restaurante/actualizar_servicio";
             var jsonContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
             var response = await _httpClient.PutAsync(url, jsonContent);
 
