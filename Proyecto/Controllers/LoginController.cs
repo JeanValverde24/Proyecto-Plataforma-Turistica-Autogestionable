@@ -20,7 +20,7 @@ namespace Proyecto.Controllers
         [HttpPost]
         public async Task<ActionResult> IniciarSesion(Usuario usuario)
         {
-            var url = "http://localhost:5000/api/login";
+            var url = "http://159.223.123.38:8000/api/login";
             var requestData = new
             {
                 correo = usuario.UsrCorreo,

@@ -25,7 +25,7 @@ namespace Proyecto.Controllers
 
         public RegistroController()
         {
-            _httpClient = new HttpClient { BaseAddress = new Uri("http://localhost:5000/") };
+            _httpClient = new HttpClient { BaseAddress = new Uri("http://159.223.123.38:8000/") };
         }
         [HttpGet]
         public async Task<ActionResult> RegistroNegocio()
