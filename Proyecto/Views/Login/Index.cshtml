@@ -13,8 +13,8 @@
 <div class="form-wrapper">
     <div id="turistaForm" class="form-container active">
         <h2>Login de Turista</h2>
-        <form action="/Login/IniciarSesion" method="post" class="register-form">
-            <input type="email" name="CorreoElectronico" placeholder="Correo Electrónico" class="form-input" required />
+        <form action="/Login/IniciarSesionTurista" method="post" class="register-form">
+            <input type="email" name="UsrCorreo" placeholder="Correo Electrónico" class="form-input" required />
             <input type="password" name="Contraseña" placeholder="Contraseña" class="form-input" required />
             <button type="submit" class="submit-btn">Login</button>
         </form>
@@ -23,7 +23,7 @@
     <div id="dueñoForm" class="form-container">
         <h2>Login de Dueño de Local</h2>
         <form action="/Login/IniciarSesionDueño" method="post" class="register-form">
-            <input type="email" name="CorreoElectronico" placeholder="Correo Electrónico" class="form-input" required />
+            <input type="number" name="UsrRuc" placeholder="RUC" class="form-input" required />
             <input type="password" name="Contraseña" placeholder="Contraseña" class="form-input" required />
             <button type="submit" class="submit-btn">Login</button>
         </form>

@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Proyecto.Models.Negocio
+
+@{
     ViewBag.Title = "Dejar Feedback";
 }
 
@@ -71,7 +73,7 @@
 </style>
 
 <div class="form-container">
-    <h2>Dejar Feedback para Pacific Suites @ViewBag.Local</h2>
+    <h2>Dejar Feedback para @Model.TbNgcNombre</h2>
 
     <form method="post" action="/Perfil/EnviarFeedback">
         <div class="mb-4">
@@ -90,7 +92,7 @@
             </div>
         </div>
 
-        <input type="hidden" name="local" value="@ViewBag.Local" />
+        <input type="hidden" name="negocio_id" value="@Model.negocio_id" />
 
         <button type="submit" class="btn btn-primary">Enviar Feedback</button>
     </form>

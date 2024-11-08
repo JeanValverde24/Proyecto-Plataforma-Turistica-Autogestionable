@@ -33,6 +33,7 @@ namespace Proyecto.Controllers
         public async Task<System.Web.Mvc.ActionResult> Servicios()
         {
             var userId = Session["IdUsuario"];
+            System.Diagnostics.Debug.WriteLine($"Valor de IdUsuario en la sesión: {Session["IdUsuario"]}");
             if (userId == null)
             {
                 return RedirectToAction("Index", "Account");
@@ -67,7 +68,9 @@ namespace Proyecto.Controllers
             // Llamada a la API
             var client = new HttpClient();
             client.BaseAddress = new Uri("http://159.223.123.38:8000/"); // Cambia según tu configuración
-            var response = await client.GetAsync($"api/negocio/{negocioId}");
+            var response = await client.GetAsync($"api/obtener_negocio/{negocioId}");
+            System.Diagnostics.Debug.WriteLine($"Estado de respuesta de la API: {response.StatusCode}");
+
 
             if (response.IsSuccessStatusCode)
             {
@@ -86,11 +89,23 @@ namespace Proyecto.Controllers
 
             if (ModelState.IsValid)
             {
-                var response = await client.PutAsJsonAsync($"api/actualizarnegocio/{negocio.negocio_id}", negocio);
+                var payload = new
+                {
+                    TbNgcNombre = negocio.TbNgcNombre,
+                    TipoNegocio = negocio.TipoNegocio,
+                    ProvinciaId = negocio.TbNgcProvincia  // El valor correcto de la provincia
+                };
+
+                var serializedPayload = JsonConvert.SerializeObject(payload);
+                System.Diagnostics.Debug.WriteLine($"Payload enviado: {serializedPayload}");
+
+                var response = await client.PutAsJsonAsync($"api/actualizarnegocio/{negocio.negocio_id}", payload);
+
+                System.Diagnostics.Debug.WriteLine($"Estado de respuesta de la API: {response.StatusCode}");
 
                 if (response.IsSuccessStatusCode)
                 {
-                    return RedirectToAction("Servicios"); // Redirige a la lista de negocios o a donde desees
+                    return RedirectToAction("Servicios");
                 }
 
                 ModelState.AddModelError("", "No se pudo actualizar el negocio.");
@@ -100,8 +115,12 @@ namespace Proyecto.Controllers
                 ModelState.AddModelError("", "Por favor, complete todos los campos requeridos.");
             }
 
-            return View("CargarInformacionDelNegocio", negocio); // Vuelve a mostrar el formulario con errores
+            return View("CargarInformacionDelNegocio", negocio);
         }
+
+
+
+
 
         public System.Web.Mvc.ActionResult AñadirServicio_Turismo(int negocioId)
         {

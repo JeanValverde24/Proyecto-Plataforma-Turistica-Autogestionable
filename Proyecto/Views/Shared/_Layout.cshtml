@@ -202,14 +202,16 @@
                 </li>
             </ul>
         </nav>
-        <button class="login-btn" onclick="window.location.href='/Registro/Index'"
-                style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "none" : "block");">
-            Registrarse
-        </button>
-        <button class="login-btn" onclick="window.location.href='/Login/Index'"
-                style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "none" : "block");">
-            Login
-        </button>
+        @if (Session["IdUsuario"] == null)
+        {
+            <button class="login-btn" onclick="window.location.href='/Registro/Index'">
+                Registrarse
+            </button>
+            <button class="login-btn" onclick="window.location.href='/Login/Index'">
+                Login
+            </button>
+        }
+
         <div class="button-container">
             <button class="brutalist-button openai button-1" data-bs-toggle="modal" data-bs-target="#customQuoteModal">
                 <div class="openai-logo">
@@ -226,22 +228,25 @@
                 </div>
             </button>
         </div>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fas fa-user-circle"></i> Perfil
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="profileDropdown">
-                <li><a class="dropdown-item" href="/Perfil/Historial">Historial de Servicios</a></li>
-                <li><a class="dropdown-item" href="/Perfil/Configuracion">Configuración</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="/Account/Logout">Cerrar Sesión</a></li>
-            </ul>
-        </li>
         <button class="login-btn" onclick="window.location.href='/Business/Servicios'"
                 style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "block" : "none");">
             Añadir Servicio
         </button>
+
+        @if (Session["IdUsuario"] != null)
+        {
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user-circle"></i> Perfil
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                    <li><a class="dropdown-item" href="/Perfil/Historial">Historial de Servicios</a></li>
+                    <li><a class="dropdown-item" href="/Perfil/Configuracion">Configuración</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/Account/Logout">Cerrar Sesión</a></li>
+                </ul>
+            </li>
+        }
 
 
 

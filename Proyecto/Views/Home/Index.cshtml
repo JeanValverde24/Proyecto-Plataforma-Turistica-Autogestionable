@@ -218,9 +218,19 @@
             </div>
             <div class="card-body">
                 <h2>@lugar.TbNgcNombre</h2>
+                <p>@lugar.negocio_id</p>
                 <p><strong>Tipo de Negocio:</strong> @lugar.TipoNegocio</p>
                 <p><strong>Provincia:</strong> @lugar.Provincia</p>
+
+                @* Verifica si el usuario es de tipo "1" para mostrar el botón *@
+                @if (Convert.ToString(Session["TipoUsuario"]) == "1")
+                {
+                    <a href="@Url.Action("DejarFeedback", "Perfil", new { negocio_id = lugar.negocio_id })" class="btn btn-primary">Dejar Feedback</a>
+
+                }
             </div>
         </div>
     }
+
+
 </div>

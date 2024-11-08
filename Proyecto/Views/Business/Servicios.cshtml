@@ -15,6 +15,7 @@ else if (Model != null && Model.Count > 0)
     <table class="table table-striped table-bordered">
         <thead class="thead-dark">
             <tr>
+                <th>ID</th>
                 <th>Nombre</th>
                 <th>Tipo de Negocio</th>
                 <th>Provincia</th>
@@ -25,9 +26,10 @@ else if (Model != null && Model.Count > 0)
             @foreach (var negocio in Model)
             {
                 <tr>
-                    <td>@negocio.negocio_nombre</td>
-                    <td>@negocio.tipo_negocio</td>
-                    <td>@negocio.provincia</td>
+                    <td>@negocio.negocio_id</td>
+                    <td>@negocio.TbNgcNombre</td>
+                    <td>@negocio.TipoNegocio</td>
+                    <td>@negocio.Provincia</td>
                     <td>
                         <a href="@Url.Action("Index_AñadirServicio", "Business", new { negocioId = negocio.negocio_id })" class="btn btn-primary">Añadir</a>
                         <a href="@Url.Action("EditarServicios", "Business", new { negocioId = negocio.negocio_id })" class="btn btn-primary">Editar Servicios</a>
