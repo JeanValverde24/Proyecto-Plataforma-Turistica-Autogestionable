@@ -321,7 +321,7 @@ namespace Proyecto.Controllers
             if (model == null)
             {
                 TempData["ErrorMessage"] = "Error: No se recibieron datos válidos.";
-                return RedirectToAction("EditarServicios", new { negocioId = model?.NegocioId ?? 0 });
+                return RedirectToAction("EditarServicios", new { negocioId = model?.Id ?? 0 });
             }
 
             var url = "http://159.223.123.38:8000/api/hotel/actualizar_servicio";

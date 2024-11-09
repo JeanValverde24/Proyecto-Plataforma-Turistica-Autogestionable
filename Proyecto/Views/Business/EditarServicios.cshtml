@@ -12,6 +12,7 @@
     @if (Model?.Item1 != null && Model.Item1.Count > 0)
     {
         <h3>Servicios de Hotel</h3>
+        
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -30,10 +31,10 @@
                 @foreach (var hotel in Model.Item1)
                 {
                     <tr>
-                        @using (Html.BeginForm("ActualizarServicioHotel", "Socio", FormMethod.Post))
+                        @using (Html.BeginForm("ActualizarServicioHotel", "Business", FormMethod.Post))
                         {
                             @Html.Hidden("NegocioId", hotel.NegocioId)
-
+                            @Html.Hidden("Id", hotel.Id)
                             <td>@Html.TextBox("CantidadPersonas", hotel.CantidadPersonas, new { @class = "form-control", type = "number" })</td>
                             <td>@Html.DropDownList("Wifi", new SelectList(new[] { "Si", "No" }, hotel.Wifi), new { @class = "form-control" })</td>
                             <td>@Html.DropDownList("AguaCaliente", new SelectList(new[] { "Si", "No" }, hotel.AguaCaliente), new { @class = "form-control" })</td>
@@ -70,7 +71,7 @@
                 @foreach (var restaurante in Model.Item2)
                 {
                     <tr>
-                        @using (Html.BeginForm("ActualizarServicioRestaurante", "Socio", FormMethod.Post))
+                        @using (Html.BeginForm("ActualizarServicioRestaurante", "Business", FormMethod.Post))
                         {
                             @Html.Hidden("NegocioId", restaurante.NegocioId)
 
@@ -115,7 +116,7 @@
                 @foreach (var turismo in Model.Item3)
                 {
                     <tr>
-                        @using (Html.BeginForm("ActualizarServicioTurismo", "Socio", FormMethod.Post))
+                        @using (Html.BeginForm("ActualizarServicioTurismo", "Business", FormMethod.Post))
                         {
                             @Html.Hidden("NegocioId", turismo.NegocioId)
 

@@ -8,6 +8,8 @@ namespace Proyecto.Models
     public class ServicioHotel
     {
         public int NegocioId { get; set; } // Id del negocio al que se le añadirá el cuarto
+        public int Id { get; set; } // Id del negocio al que se le añadirá el cuarto
+
         public int CantidadPersonas { get; set; }
         public string Wifi { get; set; }
         public string AguaCaliente { get; set; }

@@ -53,7 +53,7 @@ namespace Proyecto.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                return RedirectToAction("Confirmacion", "Hoteles");
+                return RedirectToAction("Servicios", "Business");
             }
             else
             {
