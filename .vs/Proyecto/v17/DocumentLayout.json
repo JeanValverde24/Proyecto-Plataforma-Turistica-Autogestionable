@@ -3,23 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\perfil\\historialfeedbacknegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\historialfeedbacknegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\models\\negocioconfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\negocioconfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,24 +59,8 @@
       "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\business\\cargarinformaciondelnegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\business\\cargarinformaciondelnegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\business\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,169 +82,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Proyecto\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T19:06:05.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PerfilController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\PerfilController.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Controllers\\PerfilController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\PerfilController.cs",
-              "RelativeToolTip": "Proyecto\\Controllers\\PerfilController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwCMAAAAIAAAA",
+              "Title": "NegocioConFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\NegocioConFeedback.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Models\\NegocioConFeedback.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\NegocioConFeedback.cs",
+              "RelativeToolTip": "Proyecto\\Models\\NegocioConFeedback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:51:33.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DejarFeedback.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
-              "ViewState": "AQIAADUAAAAAAAAAAAAkwDYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T18:49:45.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAANQAAAAAAAAAAAAIwOwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T21:12:01.006Z",
+              "WhenOpened": "2024-11-09T16:08:44.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "HistorialFeedBackNegocio.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T16:03:08.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAAAOkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T15:51:00.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Historial.cshtml",
               "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\Historial.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Perfil\\Historial.cshtml",
               "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\Historial.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Perfil\\Historial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-08T18:49:38.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CargarInformacionDelNegocio.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\CargarInformacionDelNegocio.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Business\\CargarInformacionDelNegocio.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\CargarInformacionDelNegocio.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Business\\CargarInformacionDelNegocio.cshtml",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAkwDMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T15:39:06.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegistroController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\RegistroController.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Controllers\\RegistroController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\RegistroController.cs",
-              "RelativeToolTip": "Proyecto\\Controllers\\RegistroController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAWwDYAAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "PerfilController.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\PerfilController.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Controllers\\PerfilController.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\PerfilController.cs",
+              "RelativeToolTip": "Proyecto\\Controllers\\PerfilController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAIwJAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:09:17.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Servicios.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\Servicios.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Business\\Servicios.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\Servicios.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Business\\Servicios.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T22:03:00.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Negocio.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Negocio.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Models\\Negocio.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Negocio.cs",
-              "RelativeToolTip": "Proyecto\\Models\\Negocio.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:02:22.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BusinessController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\BusinessController.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Controllers\\BusinessController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\BusinessController.cs",
-              "RelativeToolTip": "Proyecto\\Controllers\\BusinessController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAFEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T21:54:58.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Usuario.cs",
-              "RelativeToolTip": "Proyecto\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T21:32:26.323Z",
+              "WhenOpened": "2024-11-08T18:51:33.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Title": "DejarFeedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAQwFwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T21:14:52.751Z",
+              "WhenOpened": "2024-11-08T18:49:45.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAANQAAAAAAAAAAAAIwNoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T21:12:01.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Proyecto\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Proyecto\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAswDQAAABAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T21:13:56.489Z",
               "EditorCaption": ""
@@ -244,15 +187,100 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAMYAAAAAAAAAAAAAANQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T21:12:14.964Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Proyecto\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T19:06:05.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "Proyecto\\Controllers\\RegistroController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAWwDYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T22:09:17.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Negocio.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Models\\Negocio.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Negocio.cs",
+              "RelativeToolTip": "Proyecto\\Models\\Negocio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T22:02:22.843Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Feedback.cs",
+              "RelativeToolTip": "Proyecto\\Models\\Feedback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:08:51.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Servicios.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\Servicios.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Business\\Servicios.cshtml",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\Servicios.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Business\\Servicios.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T22:03:00.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BusinessController.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\BusinessController.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Controllers\\BusinessController.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\BusinessController.cs",
+              "RelativeToolTip": "Proyecto\\Controllers\\BusinessController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAFEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:54:58.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Usuario.cs",
+              "RelativeToolTip": "Proyecto\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:32:26.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T21:14:52.751Z"
             }
           ]
         }

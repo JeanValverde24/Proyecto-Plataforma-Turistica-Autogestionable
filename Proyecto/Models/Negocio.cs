@@ -22,6 +22,7 @@ namespace Proyecto.Models
         [JsonProperty("provincia")]
         public string Provincia { get; set; }
         public List<string> ImagenesUrl { get; set; } = new List<string>();  // Lista de URLs de las imágenes
+        public List<Feedback> Feedbacks { get; set; }
 
     }
 

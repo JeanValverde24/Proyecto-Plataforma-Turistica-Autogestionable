@@ -240,10 +240,17 @@
                     <i class="fas fa-user-circle"></i> Perfil
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="profileDropdown">
-                    <li><a class="dropdown-item" href="/Perfil/Historial">Historial de Servicios</a></li>
+                    <li>
+                        <a class="dropdown-item" style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "none" : "block");"
+                           href="@Url.Action("Historial", "Perfil")">Historial de FeedBack</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item"  style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "block" : "none");"
+                           href="@Url.Action("HistorialFeedBackNegocio", "Perfil")">Historial de FeedBack de Negocios</a>
+                    </li>
                     <li><a class="dropdown-item" href="/Perfil/Configuracion">Configuración</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="/Account/Logout">Cerrar Sesión</a></li>
+                    <li><a class="dropdown-item" href="/Home/Logout">Cerrar Sesión</a></li>
                 </ul>
             </li>
         }

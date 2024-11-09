@@ -5,23 +5,14 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using Newtonsoft.Json;
 using Proyecto.Models;
 
 namespace Proyecto.Controllers
 {
     public class PerfilController : Controller
     {
-        public ActionResult Historial()
-        {
-            // Simulación de historial del usuario, en la realidad vendría de la base de datos
-            var historial = new List<HistorialServicio>
-        {
-            new HistorialServicio { NombreLocal = "Pacific Suites", Fecha = DateTime.Now.AddDays(-10), Servicio = "Estadía", Calificado = false },
-            new HistorialServicio { NombreLocal = "Restaurante El Sabroso", Fecha = DateTime.Now.AddDays(-5), Servicio = "Almuerzo", Calificado = true }
-        };
-
-            return View(historial);
-        }
+        
 
 
         // PerfilController.cs
@@ -57,24 +48,105 @@ namespace Proyecto.Controllers
 
 
         [HttpPost]
-        public ActionResult EnviarFeedback(string local, string comentario, int estrellas)
+        public async Task<ActionResult> EnviarFeedback(int negocio_id, string comentario, int estrellas)
         {
-            // Aquí se guardaría el feedback en la base de datos
-            // Simulación de almacenamiento (debes reemplazar por tu lógica de base de datos)
-            var feedback = new Feedback
+            var feedbackData = new
             {
-                Local = local,
-                Comentario = comentario,
-                Estrellas = estrellas,
-                Fecha = DateTime.Now
+                negocio_id = negocio_id,
+                usuario_id = Session["IdUsuario"],
+                comentario = comentario,
+                calificacion = estrellas
             };
+            System.Diagnostics.Debug.WriteLine($"Llamada a la API iniciada con correo: {feedbackData.negocio_id}");
 
-            // Simulación de guardar en la base de datos (deberías implementar tu repositorio de datos)
-            TempData["Mensaje"] = "Gracias por tu feedback, ¡nos ayuda a mejorar!";
 
-            // Redirigir al historial una vez enviado el feedback
-            return RedirectToAction("Historial");
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://159.223.123.38:8000/");
+                var response = await client.PostAsJsonAsync("api/enviar_feedback", feedbackData);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    TempData["Message"] = "Feedback enviado correctamente";
+                    return RedirectToAction("Index","Home");
+                }
+                else
+                {
+                    TempData["ErrorMessage"] = "Hubo un error al enviar el feedback. Inténtalo nuevamente.";
+                    return RedirectToAction("DejarFeedback", new { negocioId = negocio_id });
+                }
+            }
         }
+
+        public async Task<ActionResult> Historial()
+        {
+            // Intenta convertir el valor de la sesión a int
+            if (Session["IdUsuario"] == null || !int.TryParse(Session["IdUsuario"].ToString(), out int usuarioId))
+            {
+                // Si la conversión falla, redirige al usuario a la página de inicio de sesión
+                return RedirectToAction("Index", "Login");
+            }
+
+            System.Diagnostics.Debug.WriteLine($"Valor de IdUsuario en la sesión: {usuarioId}");
+
+            using (var client = new HttpClient())
+            {
+                string url = $"http://159.223.123.38:8000/api/feedbacks/{usuarioId}";
+                var response = await client.GetAsync(url);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    // Imprime el código de estado y el contenido de error para depurar
+                    var errorMessage = await response.Content.ReadAsStringAsync();
+                    System.Diagnostics.Debug.WriteLine($"Error en la solicitud: {response.StatusCode} - {errorMessage}");
+                    return new HttpStatusCodeResult(response.StatusCode, "Error al obtener los feedbacks.");
+                }
+
+                var responseData = await response.Content.ReadAsStringAsync();
+
+                // Imprime el JSON recibido en la salida de depuración
+                System.Diagnostics.Debug.WriteLine("JSON recibido:");
+                System.Diagnostics.Debug.WriteLine(responseData);
+
+                var feedbacks = JsonConvert.DeserializeObject<List<Feedback>>(responseData);
+                return View(feedbacks);
+            }
+        }
+
+        public async Task<ActionResult> HistorialFeedBackNegocio()
+        {
+            if (Session["IdUsuario"] == null || !int.TryParse(Session["IdUsuario"].ToString(), out int usuarioId))
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            System.Diagnostics.Debug.WriteLine($"Valor de IdUsuario en la sesión: {usuarioId}");
+
+            using (var client = new HttpClient())
+            {
+                string url = $"http://159.223.123.38:8000/api/negocios_feedbacks?user_id={usuarioId}";
+                var response = await client.GetAsync(url);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorMessage = await response.Content.ReadAsStringAsync();
+                    System.Diagnostics.Debug.WriteLine($"Error en la solicitud: {response.StatusCode} - {errorMessage}");
+                    return new HttpStatusCodeResult(response.StatusCode, "Error al obtener los negocios y feedbacks.");
+                }
+
+                var responseData = await response.Content.ReadAsStringAsync();
+
+                // Imprime el JSON recibido en la consola para depuración
+                System.Diagnostics.Debug.WriteLine("JSON recibido: " + responseData);
+
+                var negocios = JsonConvert.DeserializeObject<List<NegocioConFeedback>>(responseData);
+                return View(negocios);
+            }
+        }
+
+
+
+
     }
 
 }
