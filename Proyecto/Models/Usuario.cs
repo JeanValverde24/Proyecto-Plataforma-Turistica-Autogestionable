@@ -21,7 +21,7 @@ namespace Proyecto.Models
 
         [Required(ErrorMessage = "El nombre es obligatorio.")]
         [StringLength(50)]
-        public string UsrNombres { get; set; }
+        public string UsrNombresCompleto { get; set; }
 
         [Required(ErrorMessage = "El apellido paterno es obligatorio.")]
         [StringLength(50)]

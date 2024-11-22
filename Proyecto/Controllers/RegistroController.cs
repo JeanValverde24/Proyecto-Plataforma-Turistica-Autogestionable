@@ -126,14 +126,12 @@ namespace Proyecto.Controllers
             var url = "http://159.223.123.38:8000/api/registro/turista"; // URL de tu API Flask para el registro de turistas
             var requestData = new
             {
-                UsrNombres = usuario.UsrNombres,
-                UsrApellidoPaterno = usuario.UsrApellidoPaterno,
-                UsrApellidoMaterno = usuario.UsrApellidoMaterno,
+                UsrNombresCompleto = usuario.UsrNombresCompleto,
                 UsrCorreo = usuario.UsrCorreo,
-                UsrPais = usuario.UsrPais,
                 UsrDniRut = usuario.UsrDniRut,
                 UsrRuc = usuario.UsrRuc, // Opcional
-                UsrNumero = usuario.UsrNumero // Opcional
+                UsrContraseña=usuario.contraseña,
+                
             };
             Session["IdTurista"] = usuario.UsrId;
 
@@ -178,14 +176,11 @@ namespace Proyecto.Controllers
             var url = "http://159.223.123.38:8000/api/registro/socio"; // URL de tu API Flask para el registro de turistas
             var requestData = new
             {
-                UsrNombres = usuario.UsrNombres,
-                UsrApellidoPaterno = usuario.UsrApellidoPaterno,
-                UsrApellidoMaterno = usuario.UsrApellidoMaterno,
+                UsrNombres = usuario.UsrNombresCompleto,
                 UsrCorreo = usuario.UsrCorreo,
-                UsrPais = usuario.UsrPais,
+                
                 UsrDniRut = usuario.UsrDniRut,
-                UsrRuc = usuario.UsrRuc, // Opcional
-                UsrNumero = usuario.UsrNumero // Opcional
+                UsrRuc = usuario.UsrRuc,
             };
 
             // Log para verificar los datos que se enviarán

@@ -1,90 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\",
+  "WorkspaceRootPath": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\lenov\\proyecto-plataforma-turistica-autogestionable\\proyecto\\views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\business\\editarservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\business\\editarservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\business\\a\u00F1adirservicio_hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\business\\a\u00F1adirservicio_hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\models\\serviciohotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\serviciohotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\business\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\business\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\antony\\onedrive\\escritorio\\gestion\\valverde-cano-turimo\\proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\perfil\\historialfeedbacknegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\historialfeedbacknegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\models\\negocioconfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\negocioconfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|c:\\users\\lenov\\proyecto-plataforma-turistica-autogestionable\\proyecto\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\negociocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\proyecto\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\business\\editarservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\business\\editarservicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\business\\a\u00F1adirservicio_hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\business\\a\u00F1adirservicio_hotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\models\\serviciohotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\serviciohotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\business\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\business\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\perfil\\historialfeedbacknegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\historialfeedbacknegocio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\models\\negocioconfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\negocioconfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\perfil\\dejarfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\proyecto\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E3323C0-9893-46AB-BF11-BA3BD6FAF80D}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,84 +98,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Registro\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Registro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Registro\\Index.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Registro\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T16:03:53.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServicioHotel.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\ServicioHotel.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Models\\ServicioHotel.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\ServicioHotel.cs",
-              "RelativeToolTip": "Proyecto\\Models\\ServicioHotel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "DocumentIndex": 1,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "Proyecto\\Controllers\\RegistroController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAswIQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:16:32.611Z",
+              "WhenOpened": "2024-11-07T22:09:17.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "A\u00F1adirServicio_Hotel.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEQAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T18:08:58.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "NegocioController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\NegocioController.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\NegocioController.cs",
               "RelativeDocumentMoniker": "Proyecto\\Controllers\\NegocioController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\NegocioController.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\NegocioController.cs",
               "RelativeToolTip": "Proyecto\\Controllers\\NegocioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T18:06:55.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EditarServicios.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\EditarServicios.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Business\\EditarServicios.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Business\\EditarServicios.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\EditarServicios.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Business\\EditarServicios.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Business\\EditarServicios.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T18:02:30.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T18:02:30.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Historial.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\Historial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Perfil\\Historial.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Perfil\\Historial.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\Historial.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Perfil\\Historial.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Perfil\\Historial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T18:49:38.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T18:49:38.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PerfilController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\PerfilController.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\PerfilController.cs",
               "RelativeDocumentMoniker": "Proyecto\\Controllers\\PerfilController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\PerfilController.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\PerfilController.cs",
               "RelativeToolTip": "Proyecto\\Controllers\\PerfilController.cs",
               "ViewState": "AQIAAGgAAAAAAAAAAAAIwJAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +177,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "DejarFeedback.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Perfil\\DejarFeedback.cshtml",
               "ViewState": "AQIAAEQAAAAAAAAAAAAQwFwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -191,11 +189,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\Usuario.cs",
+              "RelativeToolTip": "Proyecto\\Models\\Usuario.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswDMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:32:26.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "A\u00F1adirServicio_Hotel.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
+              "RelativeDocumentMoniker": "Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
+              "RelativeToolTip": "Proyecto\\Views\\Business\\A\u00F1adirServicio_Hotel.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEQAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T18:08:58.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServicioHotel.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\ServicioHotel.cs",
+              "RelativeDocumentMoniker": "Proyecto\\Models\\ServicioHotel.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\ServicioHotel.cs",
+              "RelativeToolTip": "Proyecto\\Models\\ServicioHotel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:16:32.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAANQAAAAAAAAAAAAIwNoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -203,50 +238,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BusinessController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\BusinessController.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\BusinessController.cs",
               "RelativeDocumentMoniker": "Proyecto\\Controllers\\BusinessController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\BusinessController.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\BusinessController.cs",
               "RelativeToolTip": "Proyecto\\Controllers\\BusinessController.cs",
               "ViewState": "AQIAADMBAAAAAAAAAAAAAEkBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T21:54:58.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T21:54:58.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAN4AAAAAAAAAAAAAAOkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T15:51:00.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T15:51:00.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "HotelController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\HotelController.cs",
               "RelativeDocumentMoniker": "Proyecto\\Controllers\\HotelController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\HotelController.cs",
               "RelativeToolTip": "Proyecto\\Controllers\\HotelController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAAADcAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:09:08.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T18:09:08.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Proyecto\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Proyecto\\Controllers\\LoginController.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAswDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -254,11 +286,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Proyecto\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Proyecto\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -266,11 +298,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "HistorialFeedBackNegocio.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Perfil\\HistorialFeedBackNegocio.cshtml",
               "ViewState": "AQIAAAgAAAAAAAAAAAAkwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -278,36 +310,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegistroController.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\RegistroController.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Controllers\\RegistroController.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Controllers\\RegistroController.cs",
-              "RelativeToolTip": "Proyecto\\Controllers\\RegistroController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAWwDYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:09:17.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Servicios.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\Servicios.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Business\\Servicios.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Business\\Servicios.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Business\\Servicios.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Business\\Servicios.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Business\\Servicios.cshtml",
               "ViewState": "AQIAAAUAAAAAAAAAAAAkwCIAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T22:03:00.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T22:03:00.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "NegocioConFeedback.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\NegocioConFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\NegocioConFeedback.cs",
               "RelativeDocumentMoniker": "Proyecto\\Models\\NegocioConFeedback.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\NegocioConFeedback.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\NegocioConFeedback.cs",
               "RelativeToolTip": "Proyecto\\Models\\NegocioConFeedback.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,11 +334,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Negocio.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\Negocio.cs",
               "RelativeDocumentMoniker": "Proyecto\\Models\\Negocio.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Negocio.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\Negocio.cs",
               "RelativeToolTip": "Proyecto\\Models\\Negocio.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAswBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,11 +346,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Feedback.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\Feedback.cs",
               "RelativeDocumentMoniker": "Proyecto\\Models\\Feedback.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Models\\Feedback.cs",
               "RelativeToolTip": "Proyecto\\Models\\Feedback.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -339,23 +358,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Models\\Usuario.cs",
-              "RelativeToolTip": "Proyecto\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T21:32:26.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Login\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ANTONY\\OneDrive\\Escritorio\\gestion\\Valverde-Cano-Turimo\\Proyecto\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenov\\Proyecto-Plataforma-Turistica-Autogestionable\\Proyecto\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "Proyecto\\Views\\Login\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
