@@ -79,7 +79,6 @@
         cursor: pointer;
     }
 </style>
-Session["IdSocio"]
 @{
     ViewBag.Title = "RegistroNegocio";
 }
@@ -89,8 +88,8 @@ Session["IdSocio"]
 <form action="/Registro/RegistrarNegocio" method="post" enctype="multipart/form-data">
     <div>
         <label for="TbNgcUsuario">Usuario ID</label>
-        <input type="number" id="TbNgcUsuario" name="TbNgcUsuario" class="form-input" required
-               value="@ViewBag.IdSocio" readonly />
+        <input type="number" id="TbNgcUsuario" name="TbNgcUsuario" class="form-input"
+               value="@Session["IdUsuario"]" readonly required />
     </div>
 
     <div>
@@ -124,6 +123,19 @@ Session["IdSocio"]
                 }
             }
         </select>
+    </div>
+
+    <div>
+        <label for="TbNgcDireccion">Dirección</label>
+        <input type="text" id="TbNgcDireccion" name="TbNgcDireccion" class="form-input"
+               maxlength="100" pattern="[a-zA-Z0-9\s,.-]+"
+               title="La dirección solo puede contener letras, números, espacios, comas, puntos o guiones." required />
+    </div>
+
+    <div>
+        <label for="TbNgcTelefono">Teléfono</label>
+        <input type="tel" id="TbNgcTelefono" name="TbNgcTelefono" class="form-input"
+               pattern="\d{9}" title="El teléfono debe tener exactamente 9 dígitos." required />
     </div>
 
     <div>

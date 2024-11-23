@@ -271,6 +271,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdministradorController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\CotizacionController.cs" />
     <Compile Include="Controllers\EstadisticaController.cs" />
@@ -332,6 +333,8 @@
     <Content Include="Views\Business\CargarInformacionDelNegocio.cshtml" />
     <Content Include="Views\Registro\RegistroNegocio.cshtml" />
     <Content Include="Views\Perfil\HistorialFeedBackNegocio.cshtml" />
+    <Content Include="Views\Administrador\Index.cshtml" />
+    <Content Include="Views\Negocio\Negocios.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

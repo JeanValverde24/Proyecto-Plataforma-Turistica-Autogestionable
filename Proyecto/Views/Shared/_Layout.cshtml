@@ -211,6 +211,13 @@
                 Login
             </button>
         }
+        @if (Session["Administrador"] != null)
+        {
+            <button class="login-btn" onclick="window.location.href='/Administrador/Index'">
+                Panel de Control
+            </button>
+            
+        }
 
         <div class="button-container">
             <button class="brutalist-button openai button-1" data-bs-toggle="modal" data-bs-target="#customQuoteModal">
@@ -245,7 +252,7 @@
                            href="@Url.Action("Historial", "Perfil")">Historial de FeedBack</a>
                     </li>
                     <li>
-                        <a class="dropdown-item"  style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "block" : "none");"
+                        <a class="dropdown-item" style="display: @(Session["PermitirAñadirServicio"] != null && (bool)Session["PermitirAñadirServicio"] ? "block" : "none");"
                            href="@Url.Action("HistorialFeedBackNegocio", "Perfil")">Historial de FeedBack de Negocios</a>
                     </li>
                     <li><a class="dropdown-item" href="/Perfil/Configuracion">Configuración</a></li>

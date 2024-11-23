@@ -1,6 +1,8 @@
 ﻿@model Proyecto.Models.Usuario
 @{
     ViewData["Title"] = "Registro";
+    var mensaje = TempData["Mensaje"] as string;
+    var mensajeClase = TempData["MensajeClase"] as string;
 }
 <h1 class="main-title">Registro</h1>
 
@@ -8,6 +10,16 @@
     <button class="toggle-btn" onclick="toggleForm('turista')">Registro de Turista</button>
     <button class="toggle-btn" onclick="toggleForm('dueño')">Registro de Socio</button>
 </div>
+@if (Session["Mensaje"] != null)
+{
+    <div class="alert alert-danger">@Session["Mensaje"]</div>
+}
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <div class="alert @mensajeClase">
+        @mensaje
+    </div>
+}
 
 <!-- Formulario de Registro de Turista -->
 <div id="turistaForm" class="form-container">
@@ -25,7 +37,7 @@
 <div id="dueñoForm" class="form-container" style="display:none;">
     <h2>Registro de Socio</h2>
     <form action="/Registro/RegistrarSocio" method="post" class="register-form">
-        <input type="text" name="UsrNombreCompleto" placeholder="Nombre completo" class="form-input" required />
+        <input type="text" name="UsrNombresCompleto" placeholder="Nombre completo" class="form-input" required />
         <input type="email" name="UsrCorreo" placeholder="Correo Electrónico" class="form-input" required />
         <input type="password" name="contraseña" placeholder="Contraseña" class="form-input" required />
         <input type="number" name="UsrRuc" placeholder="RUC" class="form-input" required />
@@ -143,5 +155,21 @@
         margin-top: 20px;
         color: #4A0D50;
         font-weight: bold;
+    }
+
+    .alert-success {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+        padding: 10px;
+        border-radius: 5px;
     }
 </style>

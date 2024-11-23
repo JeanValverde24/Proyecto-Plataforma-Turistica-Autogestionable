@@ -11,8 +11,8 @@ namespace Proyecto.Models
         public int negocio_id { get; set; }
         public int TbNgcUsuario { get; set; }
         public int TbNgcTipoNegocio { get; set; }
-
         public int TbNgcProvincia { get; set; }
+
         [JsonProperty("negocio_nombre")]
         public string TbNgcNombre { get; set; }
 
@@ -21,9 +21,17 @@ namespace Proyecto.Models
 
         [JsonProperty("provincia")]
         public string Provincia { get; set; }
-        public List<string> ImagenesUrl { get; set; } = new List<string>();  // Lista de URLs de las imágenes
-        public List<Feedback> Feedbacks { get; set; }
 
+        [JsonProperty("direccion")]
+        public string TbNgcDireccion { get; set; }
+
+        [JsonProperty("telefono")]
+        public string TbNgcTelefono { get; set; }
+
+        public List<string> ImagenesUrl { get; set; } = new List<string>();
+        public List<Feedback> Feedbacks { get; set; } // Opcional
     }
+
+
 
 }

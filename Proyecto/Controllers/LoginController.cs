@@ -86,6 +86,7 @@ namespace Proyecto.Controllers
                 string tipoUsuario = result.tipo_usuario;
                 string nombre = result.nombre;
                 int id = result.id;
+                Session["Administrador"] = 1;
 
                 Session["IdUsuario"] = result.id;
                 Session["PermitirAñadirServicio"] = tipoUsuario == "2";

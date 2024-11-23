@@ -52,18 +52,21 @@ namespace Proyecto.Controllers
             // Crear un objeto para enviar datos del negocio
             var requestData = new
             {
-                TbNgcUsuario = negocio.TbNgcUsuario,  // Usar el valor asignado desde la vista
+                TbNgcUsuario = negocio.TbNgcUsuario,
                 TbNgcNombre = negocio.TbNgcNombre,
                 TbNgcTipoNegocio = negocio.TbNgcTipoNegocio,
-                TbNgcProvincia = negocio.TbNgcProvincia
+                TbNgcProvincia = negocio.TbNgcProvincia,
+                TbNgcDireccion = negocio.TbNgcDireccion,
+                TbNgcTelefono = negocio.TbNgcTelefono
             };
-
-            var jsonContent = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
 
             using (var formContent = new MultipartFormDataContent())
             {
+                // Convertir el negocio a JSON y añadirlo como parte del contenido del formulario
+                var jsonContent = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
                 formContent.Add(jsonContent, "negocio");
 
+                // Añadir imágenes si existen
                 if (TbImgRuta != null)
                 {
                     foreach (var imagen in TbImgRuta)
@@ -83,6 +86,7 @@ namespace Proyecto.Controllers
                     }
                 }
 
+                // Enviar la solicitud a la API Flask
                 var response = await _httpClient.PostAsync(url, formContent);
 
                 if (response.IsSuccessStatusCode)
@@ -96,6 +100,8 @@ namespace Proyecto.Controllers
                 }
             }
         }
+
+
 
 
         private async Task<IEnumerable<TipoNegocio>> ObtenerTiposNegocioDesdeAPI()
@@ -123,96 +129,92 @@ namespace Proyecto.Controllers
         [HttpPost]
         public async Task<ActionResult> RegistrarTurista(Usuario usuario)
         {
-            var url = "http://159.223.123.38:8000/api/registro/turista"; // URL de tu API Flask para el registro de turistas
+            var url = "http://159.223.123.38:8000/api/registro/turista";
             var requestData = new
             {
                 UsrNombresCompleto = usuario.UsrNombresCompleto,
                 UsrCorreo = usuario.UsrCorreo,
                 UsrDniRut = usuario.UsrDniRut,
-                UsrRuc = usuario.UsrRuc, // Opcional
-                UsrContraseña=usuario.contraseña,
-                
+                UsrContraseña = usuario.contraseña
             };
-            Session["IdTurista"] = usuario.UsrId;
 
-
-            // Log para verificar los datos que se enviarán
-            System.Diagnostics.Debug.WriteLine($"Llamada a la API de registro iniciada con correo: {requestData.UsrCorreo}");
-
-            // Serialización y envío de datos a la API Flask
             var content = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
             var response = await _httpClient.PostAsync(url, content);
 
-            // Log para verificar el estado de la respuesta de la API
-            System.Diagnostics.Debug.WriteLine($"Estado de respuesta de la API: {response.StatusCode}");
-
             if (response.IsSuccessStatusCode)
             {
-                var result = JsonConvert.DeserializeObject<dynamic>(await response.Content.ReadAsStringAsync());
-                string tipoUsuario = result.tipo_usuario;
-                string nombre = result.nombre;
+                var responseContent = await response.Content.ReadAsStringAsync();
+                var jsonResponse = JsonConvert.DeserializeObject<dynamic>(responseContent);
+                int? usuarioId = jsonResponse?.id;
 
-                // Guarda la información en la sesión si el registro es exitoso
-                Session["PermitirAñadirServicio"] = tipoUsuario == "2";
-                Session["NombreUsuario"] = nombre;
-                Session["Mensaje"] = "Registro exitoso";
+                // Guardar el ID en la sesión
+                Session["IdUsuario"] = usuarioId ?? 0;
 
-                return RedirectToAction("Index","Home"); // Redirige a la página de inicio
+                TempData["Mensaje"] = "Registro exitoso. Bienvenido a la plataforma.";
+                TempData["MensajeClase"] = "alert-success"; // Clase CSS para verde
+                return RedirectToAction("Index", "Home");
             }
             else
             {
-                Session["Mensaje"] = "Error en el registro. Inténtelo nuevamente.";
-                return RedirectToAction("Index", "Registro"); // Redirige a la página de registro en caso de error
+                var errorResponse = JsonConvert.DeserializeObject<dynamic>(await response.Content.ReadAsStringAsync());
+                string errorMessage = errorResponse?.error ?? "Error desconocido";
+
+                TempData["Mensaje"] = errorMessage;
+                TempData["MensajeClase"] = "alert-danger"; // Clase CSS para rojo
+                return RedirectToAction("Index", "Registro");
             }
         }
-
-
-
 
 
         [HttpPost]
         public async Task<ActionResult> RegistrarSocio(Usuario usuario)
         {
-            var url = "http://159.223.123.38:8000/api/registro/socio"; // URL de tu API Flask para el registro de turistas
+            var url = "http://159.223.123.38:8000/api/registro/socio";
             var requestData = new
             {
-                UsrNombres = usuario.UsrNombresCompleto,
+                UsrNombresCompleto = usuario.UsrNombresCompleto,
                 UsrCorreo = usuario.UsrCorreo,
-                
-                UsrDniRut = usuario.UsrDniRut,
                 UsrRuc = usuario.UsrRuc,
+                UsrContraseña = usuario.contraseña
             };
 
-            // Log para verificar los datos que se enviarán
-            System.Diagnostics.Debug.WriteLine($"Llamada a la API de registro iniciada con correo: {requestData.UsrCorreo}");
-
-            // Serialización y envío de datos a la API Flask
             var content = new StringContent(JsonConvert.SerializeObject(requestData), Encoding.UTF8, "application/json");
             var response = await _httpClient.PostAsync(url, content);
 
-            // Log para verificar el estado de la respuesta de la API
-            System.Diagnostics.Debug.WriteLine($"Estado de respuesta de la API: {response.StatusCode}");
-
             if (response.IsSuccessStatusCode)
             {
-                var result = JsonConvert.DeserializeObject<dynamic>(await response.Content.ReadAsStringAsync());
-                string tipoUsuario = result.tipo_usuario;
-                string nombre = result.nombre;
-                int id = result.id;
+                var responseContent = await response.Content.ReadAsStringAsync();
+                var jsonResponse = JsonConvert.DeserializeObject<dynamic>(responseContent);
+                int? socioId = jsonResponse?.id;
 
-                // Guarda la información en la sesión si el registro es exitoso
-                Session["IdSocio"] = id;
-                Session["PermitirAñadirServicio"] = tipoUsuario == "2";
-                Session["NombreUsuario"] = nombre;
-                Session["Mensaje"] = "Registro exitoso";
+                // Guardar el ID en la sesión
+                Session["IdUsuario"] = socioId ?? 0;
+                Session["Administrador"] = 1;
 
-                return RedirectToAction("RegistroNegocio"); // Redirige a la página de registro en caso de error
+                TempData["Mensaje"] = "Registro exitoso. Acceso al panel de administración.";
+                TempData["MensajeClase"] = "alert-success"; // Clase CSS para verde
+                return RedirectToAction("Index", "Administrador");
             }
             else
             {
-                Session["Mensaje"] = "Error en el registro. Inténtelo nuevamente.";
-                return RedirectToAction("RegistroNegocio"); // Redirige a la página de registro en caso de error
+                var errorResponse = JsonConvert.DeserializeObject<dynamic>(await response.Content.ReadAsStringAsync());
+                string errorMessage = errorResponse?.error ?? "Error desconocido";
+
+                if (errorMessage.Contains("El RUC ya está registrado"))
+                {
+                    TempData["Mensaje"] = "El RUC ya está registrado.";
+                }
+                else
+                {
+                    TempData["Mensaje"] = "Error en el registro. Inténtelo nuevamente.";
+                }
+
+                TempData["MensajeClase"] = "alert-danger"; // Clase CSS para rojo
+                return RedirectToAction("Index", "Registro");
             }
         }
+
+
+
     }
 }

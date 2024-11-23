@@ -16,38 +16,46 @@
         @Html.TextBoxFor(model => model.TipoNegocio, new { @class = "form-control" })
     </div>
 
+
+
+
     <div class="form-group">
-        @Html.LabelFor(model => model.TbNgcProvincia) <!-- Asegúrate de que este sea el campo correcto -->
+        @Html.LabelFor(model => model.TbNgcProvincia)
         <select id="Provincia" class="form-control" name="TbNgcProvincia">
             <!-- Las opciones se llenarán automáticamente con JavaScript -->
         </select>
-
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.TbNgcDireccion)
+        @Html.TextBoxFor(model => model.TbNgcDireccion, new { @class = "form-control" })
     </div>
 
+    <div class="form-group">
+        @Html.LabelFor(model => model.TbNgcTelefono)
+        @Html.TextBoxFor(model => model.TbNgcTelefono, new { @class = "form-control" })
+    </div>
     <button type="submit" class="btn btn-primary">Guardar Cambios</button>
 }
 
 <script>
-   document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function () {
     fetch('http://159.223.123.38:8000/api/provincias')
         .then(response => response.json())
         .then(provincias => {
             const provinciaSelect = document.getElementById('Provincia');
             provincias.forEach(provincia => {
                 const option = document.createElement('option');
-                option.value = provincia.TbPvncId;  // Asegúrate de que el valor del option sea el ID
-                option.text = provincia.Nombre;     // El nombre que se mostrará en la opción
+                option.value = provincia.TbPvncId; // Asegúrate de que este valor sea numérico
+                option.text = provincia.Nombre;
                 provinciaSelect.appendChild(option);
             });
 
-            // Si hay una provincia ya seleccionada (puede ser un valor del modelo),
-            // seleccionamos esa opción en el select.
-            const selectedProvinciaId = @Html.Raw(Json.Encode(Model.TbNgcProvincia)); // Aquí obtienes la provincia seleccionada en el modelo
+            // Selecciona la provincia actual
+            const selectedProvinciaId = @Html.Raw(Json.Encode(Model.TbNgcProvincia));
             if (selectedProvinciaId) {
                 provinciaSelect.value = selectedProvinciaId;
             }
         })
         .catch(error => console.log('Error al cargar provincias:', error));
 });
-
 </script>

@@ -67,19 +67,33 @@ namespace Proyecto.Controllers
 
             // Llamada a la API
             var client = new HttpClient();
-            client.BaseAddress = new Uri("http://159.223.123.38:8000/"); // Cambia según tu configuración
+            client.BaseAddress = new Uri("http://159.223.123.38:8000/");
             var response = await client.GetAsync($"api/obtener_negocio/{negocioId}");
             System.Diagnostics.Debug.WriteLine($"Estado de respuesta de la API: {response.StatusCode}");
-
+            System.Diagnostics.Debug.WriteLine($"Estado de respuesta de la API: {response}");
 
             if (response.IsSuccessStatusCode)
             {
-                var negocio = await response.Content.ReadAsAsync<Negocio>();
+                var json = await response.Content.ReadAsStringAsync();
+                var negocioData = JsonConvert.DeserializeObject<dynamic>(json);
+
+                var negocio = new Negocio
+                {
+                    negocio_id = negocioData.negocio_id,
+                    TbNgcNombre = negocioData.TbNgcNombre,
+                    TipoNegocio = negocioData.TipoNegocio,
+                    TbNgcProvincia = negocioData.TbNgcProvincia,
+                    TbNgcDireccion = negocioData.TbNgcDireccion,
+                    TbNgcTelefono = negocioData.TbNgcTelefono
+                };
+                System.Diagnostics.Debug.WriteLine($"Modelo final: {JsonConvert.SerializeObject(negocio)}");
+
                 return View(negocio);
             }
 
             return HttpNotFound("Negocio no encontrado.");
         }
+
 
         [System.Web.Mvc.HttpPost]
         public async Task<System.Web.Mvc.ActionResult> ActualizarNegocio(Negocio negocio)
@@ -93,7 +107,9 @@ namespace Proyecto.Controllers
                 {
                     TbNgcNombre = negocio.TbNgcNombre,
                     TipoNegocio = negocio.TipoNegocio,
-                    ProvinciaId = negocio.TbNgcProvincia  // El valor correcto de la provincia
+                    ProvinciaId = negocio.TbNgcProvincia,
+                    TbNgcDireccion = negocio.TbNgcDireccion,
+                    TbNgcTelefono = negocio.TbNgcTelefono
                 };
 
                 var serializedPayload = JsonConvert.SerializeObject(payload);
@@ -327,7 +343,7 @@ namespace Proyecto.Controllers
             var url = "http://159.223.123.38:8000/api/hotel/actualizar_servicio";
             var jsonContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
             var response = await _httpClient.PutAsync(url, jsonContent);
-
+    
             if (response.IsSuccessStatusCode)
             {
                 TempData["SuccessMessage"] = "Servicio de hotel actualizado correctamente.";
